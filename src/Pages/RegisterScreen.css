@@ -3,6 +3,9 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+.register-container h3{
+  color: white;
+}
 .container {
     display: flex;
     justify-content: center;

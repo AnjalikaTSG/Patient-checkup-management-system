@@ -3,6 +3,8 @@ import '../Pages/RegisterScreen.css'; // Include your CSS styles
 
 function RegisterPage() {
   return (
+    <div className="register-container">
+    <h3>Patient checkup management system - Base Hospital Avissawella</h3>
     <div className="container">
       <div className="form-container">
         <h2>Register</h2>
@@ -36,6 +38,7 @@ function RegisterPage() {
       <div className="image-container">
         <img src="/src/images/login2.jpg" alt="Medical Background" />
       </div>
+    </div>
     </div>
   );
 }
