@@ -3,6 +3,7 @@ import '../Pages/RegisterScreen.css'; // Include your CSS styles
 
 function LoginScreen() {
   return (
+    /// This is a comment
     <div className="register-container">
     <h3>Patient checkup management system - Base Hospital Avissawella</h3>
     <div className="container">
