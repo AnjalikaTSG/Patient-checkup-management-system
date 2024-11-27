@@ -1,27 +1,26 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
 import './Dashboard.css';
 
 export default function Dashboard() {
   return (
-    <>
-      <div className="dashboard-title">Patient Checkup Management System</div>
-      <Navbar bg="primary" data-bs-theme="dark" expand="lg">
-        <Container>
-          <Navbar.Toggle aria-controls="navbar-nav" />
-          <Navbar.Collapse id="navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link href="#dashboard">Dashboard</Nav.Link>
-              <Nav.Link href="#patient-registration">Patient Registration</Nav.Link>
-              <Nav.Link href="#appointments">Appointments</Nav.Link>
-              <Nav.Link href="#reports">Reports</Nav.Link>
-              <Nav.Link href="#settings">Settings</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-    </>
+    <div className="dashboard-container">
+      {/* Left Sidebar */}
+      <div className="left-side">
+        <h1>Patient Management</h1>
+        <ul>
+          <li><a href="#dashboard">Dashboard</a></li>
+          <li><a href="#patient-registration">Patient Registration</a></li>
+          <li><a href="#appointments">Appointments</a></li>
+          <li><a href="#reports">Reports</a></li>
+          <li><a href="#settings">Settings</a></li>
+        </ul>
+      </div>
+
+      {/* Main Content Area */}
+      <div className="right-side">
+        <h2>Welcome to the Dashboard</h2>
+        <p>Select an option from the navigation menu on the left.</p>
+      </div>
+    </div>
   );
 }
