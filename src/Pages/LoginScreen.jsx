@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Pages/RegisterScreen.css'; // Include your CSS styles
+import '../Pages/RegisterScreen.css'; 
 
 function LoginScreen() {
   return (
