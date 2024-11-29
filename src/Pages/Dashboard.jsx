@@ -1,7 +1,16 @@
 import React from 'react';
 import './Dashboard.css';
+import DahCard from './DahCard';
 
 export default function Dashboard() {
+  const cardData = [
+    { icon: <FaUserMd />, count: 54, title: 'Doctor' },
+    { icon: <FaUserNurse />, count: 152, title: 'Nurse' },
+    { icon: <FaCapsules />, count: 50, title: 'Pharmacist' },
+    { icon: <FaUser />, count: 2542, title: 'Patient' },
+    { icon: <FaFlask />, count: 42, title: 'Laboratorist' },
+  ];
+  
   return (
     <div className="dashboard-container">
       {/* Left Sidebar */}
