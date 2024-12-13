@@ -15,7 +15,7 @@ export default function Dashboard() {
     <div className="dashboard-container">
       {/* Left Sidebar */}
       <div className="left-side">
-        <h1>Welcome to Base Hospital - Awissawella</h1>
+        <h1>Base Hospital - Awissawella</h1>
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#patient-registration">Patient Registration</a></li>
