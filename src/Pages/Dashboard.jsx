@@ -23,6 +23,8 @@ export default function Dashboard() {
           <li><a href="#patient-records">Patient Records</a></li>
           <li><a href="#reports-&-alerts">Reports & Alerts</a></li>
           <li><a href="#departments">Departments/Clinics</a></li>
+          <li><a href="#users">Doctors</a></li>
+          <li><a href="#settings">Settings</a></li>
         </ul>
       </div>
 
